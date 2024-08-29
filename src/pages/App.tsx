@@ -71,7 +71,7 @@ function App() {
   return (
     <div className="container">
       <Photos />
-      <p>Juntos</p>
+      <p>Juntos1</p>
       {diferencaDeTempo && (
         <div id="tempoJuntos">
           {diferencaDeTempo.anos} anos, {diferencaDeTempo.meses} meses, {diferencaDeTempo.dias} dias, 
