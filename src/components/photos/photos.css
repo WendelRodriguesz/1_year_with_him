@@ -11,7 +11,7 @@
 }
 
 .imagem {
-  margin-top: 20%;
+  margin-top: 40%;
   width: 400px;
   height: 600px; /* Definindo uma altura padrão */
   object-fit: cover; /* Ajusta a imagem para cobrir o contêiner sem distorção */

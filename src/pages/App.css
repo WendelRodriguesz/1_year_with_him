@@ -49,3 +49,29 @@ p{
   font-size: 18px;
   color: #fade92;
 }
+
+.prompt-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.prompt {
+  background-color: #f80000;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.prompt p {
+  font-size: 18px;
+  color: #333;
+}
+
+.erro {
+  color: red;
+  margin-top: 10px;
+}
