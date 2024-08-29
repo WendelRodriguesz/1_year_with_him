@@ -70,6 +70,12 @@ function App() {
   // Renderiza a página principal após a resposta correta
   return (
     <div className="container">
+      <div className="video-background">
+        <video autoPlay loop muted playsInline className="video">
+          <source src= "../assets/videos/fundo1.mp4" type="video/mp4" />
+          Seu navegador não suporta o elemento de vídeo.
+        </video>
+      </div>
       <Photos />
       <p>Juntos</p>
       {diferencaDeTempo && (
