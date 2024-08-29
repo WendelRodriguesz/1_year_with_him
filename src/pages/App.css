@@ -2,7 +2,7 @@
 body {
   font-family: 'Arial', sans-serif;
   color: #ffffff;
-  background-color: #131313;
+  background-color: #000000;
   margin: 0;
   padding: 0;
   display: flex;
@@ -84,6 +84,7 @@ p{
   height: 100%;
   overflow: hidden;
   z-index: -1;
+  opacity: 45%;
 }
 
 .video {
