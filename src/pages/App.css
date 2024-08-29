@@ -1,6 +1,51 @@
-.Style {
-  
-  @media screen and (min-width: 1280px) {
-    
-  }
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+  background-color: #131313;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  /* background-color: #ffffff; */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+p{
+  font-size: 20px;
+  margin: 20px 0;
+}
+#tempoJuntos {
+  margin: 20px 0;
+  font-size: 18px;
+  color: #d6d6d6;
+}
+
+.heart {
+  font-size: 24px;
+  color: #e91e63;
+  margin: 20px 0;
+}
+
+.barra-horizontal {
+  width: 30%;
+  margin: 20px auto;
+  border: none;
+  border-top: 2px solid #2c2c2c23;
+  opacity: 1;
+  box-shadow: 0 2px 3px rgb(209, 209, 209);
+}
+
+.message {
+  font-size: 18px;
+  color: #fade92;
 }
