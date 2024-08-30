@@ -15,10 +15,11 @@ body {
   text-align: center;
   max-width: 600px;
   margin: auto;
+  margin-top: 40px; 
   padding: 20px;
   /* background-color: #ffffff; */
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* border-radius: 10px; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 p{
   font-size: 20px;
@@ -40,14 +41,15 @@ p{
   width: 30%;
   margin: 20px auto;
   border: none;
-  border-top: 2px solid #2c2c2c23;
+  border-top: 4px solid #000000a2;
   opacity: 1;
-  box-shadow: 0 2px 3px rgb(209, 209, 209);
+  box-shadow: 0 0px 7px rgb(209, 209, 209);
 }
 
 .message {
   font-size: 18px;
   color: #fade92;
+  margin-bottom: 15px;
 }
 
 .prompt-container {

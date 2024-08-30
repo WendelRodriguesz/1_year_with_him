@@ -28,10 +28,10 @@ function App() {
 
     return () => clearInterval(intervalo);
   }, []);
-
+  
   // Verifica a resposta do usuário
   const verificarResposta = () => {
-    const resposta = prompt("Complete a frase: 'a lua ta linda hoje...'");
+    const resposta = prompt("Complete a frase: 'A lua está linda hoje...'");
     if (respostasCorretas.includes(resposta?.toLowerCase().trim() || '')) {
       setRespostaCorreta(true);
     } else {
@@ -60,7 +60,7 @@ function App() {
     return (
       <div className="prompt-container">
         <div className="prompt">
-          <p>Complete a frase: 'a lua ta linda hoje...'</p>
+          <p>Complete a frase: 'A lua está linda hoje...'</p>
           {mensagemErro && <p className="erro">{mensagemErro}</p>}
         </div>
       </div>
@@ -71,9 +71,8 @@ function App() {
   return (
     <div className="container">
       <div className="video-background">
-        <video autoPlay loop muted playsInline className="video">
-          <source src= "../assets/videos/fundo1.mp4" type="video/mp4" />
-          Seu navegador não suporta o elemento de vídeo.
+        <video autoPlay loop muted className="video">
+          <source src="../assets/videos/fundo.mp4" type="video/mp4" />
         </video>
       </div>
       <Photos />
@@ -89,11 +88,17 @@ function App() {
       <hr className="barra-horizontal" />
       <div className="heart">❤️</div>
       <div className="message">E assim a lua ficou linda com o brilho da sua estrela para sempre... ☪️</div>
-      
       <div className="music-info">
-        <img src="/path/to/moonlight-logo.png" alt="Moonlight - Kali Uchis" />
-        <p><a href="https://open.spotify.com/track/5Z9KJZvQzH6PFmb8SNkxuk" target="_blank" rel="noopener noreferrer">Ouça "Moonlight" de Kali Uchis no Spotify</a></p>
-        <img src="/path/to/spotify-qr-code.png" alt="QR Code Spotify" />
+        <iframe
+          title="Spotify Playlist"
+          style={{ borderRadius: '12px', opacity: '75%' }}
+          src="https://open.spotify.com/embed/playlist/1YwoZqx1CAbMabPxmOXJfz?utm_source=generator&theme=0&autoplay=1"
+          width="100%"
+          height="152"
+          frameBorder="0"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
       </div>
     </div>
   );
