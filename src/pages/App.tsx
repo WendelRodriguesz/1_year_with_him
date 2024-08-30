@@ -50,7 +50,7 @@ function App() {
   if (!interacaoUsuario) {
     return (
       <div className="prompt-container">
-        <Button onClick={iniciarInteracao}>Coloque sua digital</Button>
+        <Button onClick={iniciarInteracao}>Clique em mim❤️</Button>
       </div>
     );
   }
