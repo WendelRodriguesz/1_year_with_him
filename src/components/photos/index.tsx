@@ -8,6 +8,7 @@ require('../../assets/photos/img1.jpeg'),
   require('../../assets/photos/img4.jpeg'),
   require('../../assets/photos/img5.jpeg'),
   require('../../assets/photos/img6.jpeg'),
+  require('../../assets/photos/img7.jpeg'),
 ];
 
 const Photos: React.FC = () => {

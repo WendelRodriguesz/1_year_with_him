@@ -50,7 +50,7 @@ function App() {
   if (!interacaoUsuario) {
     return (
       <div className="prompt-container">
-        <Button onClick={iniciarInteracao}>Clique aqui</Button>
+        <Button onClick={iniciarInteracao}>Coloque sua digital</Button>
       </div>
     );
   }
@@ -60,7 +60,7 @@ function App() {
     return (
       <div className="prompt-container">
         <div className="prompt">
-          <p>Complete a frase: 'A lua está linda hoje...'</p>
+          {/* <p>Complete a frase: 'A lua está linda hoje...'</p> */}
           {mensagemErro && <p className="erro">{mensagemErro}</p>}
         </div>
       </div>
@@ -71,7 +71,7 @@ function App() {
   return (
     <div className="container">
       <div className="video-background">
-        <video autoPlay loop muted className="video">
+        <video autoPlay loop muted playsInline className="video">
           <source src="../assets/videos/fundo.mp4" type="video/mp4" />
         </video>
       </div>
