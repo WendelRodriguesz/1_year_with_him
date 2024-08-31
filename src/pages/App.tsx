@@ -101,7 +101,6 @@ function App() {
       )}
       <hr className="barra-horizontal" />
       <div className="heart">❤️</div>
-      <div className="message">E assim a lua ficou linda com o brilho da sua estrela para sempre... ☪️</div>
       <div className="music-info">
         <iframe
           title="Spotify Playlist"
@@ -128,6 +127,7 @@ function App() {
         <source src="../assets/videos/homem aranha.mp4" type="video/mp4" />
         </video>
       </div>
+      <div className="message">E assim a lua ficou linda com o brilho da sua estrela para sempre... ☪️</div>
     </div>
   );
 }
