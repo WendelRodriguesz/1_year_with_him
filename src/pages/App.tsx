@@ -78,17 +78,14 @@ function App() {
         </video>
       </div>
       <div className="photos_container">
-
-       <Photos />
+        <Photos />
       </div>
-      <div className='stickers'>
-        <section className='estrela'>
-          <Sticker type="estrela1"/>
-        </section>
-        <section className='lua'>
-          <Sticker type='lua'/>
-        </section>
-      </div>
+      <section className='estrela'>
+        <Sticker type="estrela1"/>
+      </section>
+      <section className='lua'>
+        <Sticker type='lua'/>
+      </section>
       <p>Juntos</p>
       {diferencaDeTempo && (
         <div id="tempoJuntos">

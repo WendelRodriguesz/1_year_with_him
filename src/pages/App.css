@@ -102,21 +102,17 @@ p {
   width: 100%;
 }
 
-.stickers {
-  position: relative;
-}
-
 .estrela {
   position: absolute;
-  bottom: 540px;
-  left: 70px; 
+  bottom: 1740px;
+  left: 80px; 
   /* top: 50px; */
 }
 
 .lua {
   position: absolute;
-  bottom: -40px;
-  right: 50px; 
+  bottom: 1160px;
+  left: 75.2%; 
 }
 
 .Polaroids {
@@ -252,4 +248,18 @@ p {
   .postit {
     width: 200px; /* Ajuste para dispositivos móveis */
   }
+
+  .estrela {
+    position: absolute;
+    bottom: 2010px;
+    left: 110px; 
+    /* top: 50px; */
+  }
+  
+  .lua {
+    position: absolute;
+    bottom: 1430px;
+    left: 75.2%; 
+  }
+  
 }
