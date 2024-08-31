@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   color: #ffffff;
   background-color: #000000;
   margin: 0;
@@ -14,7 +14,7 @@ body {
   text-align: center;
   max-width: 600px;
   margin: auto;
-  margin-top: 40px; 
+  margin-top: 40px;
   padding: 20px;
   position: relative; /* Adicionado para garantir que o conteúdo esteja acima do vídeo */
   z-index: 1; /* Adicionado para garantir que o conteúdo esteja acima do vídeo */
@@ -67,7 +67,7 @@ p {
   left: 15%;
   font-size: 15px;
   background: #ff0000d2;
-  color:#ffffff;
+  color: #ffffff;
   border-radius: 15px;
   box-shadow: 0 3px 15px -2px #222;
   padding: 20px;
@@ -93,7 +93,12 @@ p {
   object-fit: cover;
   transform: translate(-50%, -50%);
 }
-
+.photos_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 /* Responsividade */
 @media (max-width: 768px) {
   body {

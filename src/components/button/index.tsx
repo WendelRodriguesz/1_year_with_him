@@ -15,11 +15,7 @@ export default function Button({ type, onClick, children }: Props) {
             onClick={onClick}
         >
             {children}
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+           
         </button>
     );
 }

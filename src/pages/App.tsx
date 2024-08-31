@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import './App.css';
+import { useEffect, useState } from 'react';
 import { calcularDiferencaDeTempo, DiferencaDeTempo } from '../common/utills/time';
-import Photos from '../components/photos';
 import Button from '../components/button';
+import Photos from '../components/photos';
+import './App.css';
 
 // Respostas corretas para a frase
 const respostasCorretas = [
@@ -50,7 +50,7 @@ function App() {
   if (!interacaoUsuario) {
     return (
       <div className="prompt-container">
-        <Button onClick={iniciarInteracao}>Clique em mim❤️</Button>
+        <Button onClick={iniciarInteracao}>☾ Clique em mim ✯</Button>
       </div>
     );
   }
@@ -75,7 +75,10 @@ function App() {
           <source src="../assets/videos/fundo.mp4" type="video/mp4" />
         </video>
       </div>
-      <Photos />
+      <div className="photos_container">
+
+       <Photos />
+      </div>
       <p>Juntos</p>
       {diferencaDeTempo && (
         <div id="tempoJuntos">

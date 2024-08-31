@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './photos.css';
 
 const imagens = [
@@ -23,7 +23,7 @@ const Photos: React.FC = () => {
   }, []);
 
   return (
-    <div className="Photos">
+    <div className="photos">
       <img src={imagens[indiceAtual]} alt={`Slide ${indiceAtual}`} className="imagem" />
     </div>
   );
