@@ -11,8 +11,7 @@ const respostasCorretas = [
   'as estrelas tambem',
   'as estrelas também',
   'e as estrelas tambem',
-  'e as estrelas também',
-  ''
+  'e as estrelas também'
 ];
 
 function App() {
@@ -122,7 +121,7 @@ function App() {
           <Polaroid type='foto2'/>
           <img src='../../assets/photos/aran.png' className='aran'/>
         </section>
-        <a className='link' href="https://www.netflix.com/br/title/70208599"><img src={`../../assets/photos/post.jpg`} alt={`Post-it`} className="postit"/></a>
+        <a className='link' href="https://www.netflix.com/br/title/70208599" target="_blank" rel="noopener noreferrer"><img src={`../../assets/photos/post.jpg`} alt={`Post-it`} className="postit"/></a>
         <video className='filme' controls>
         <source src="../assets/videos/homem aranha.mp4" type="video/mp4" />
         </video>
