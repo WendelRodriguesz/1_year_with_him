@@ -1,0 +1,17 @@
+.polaroid {
+    width: 150px; /* Largura total do contêiner Polaroid */
+    padding: 10px 10px 30px; 
+    /* background: rgb(83, 83, 83); */
+    margin: 20px; /* Margem ao redor do contêiner */
+    position: relative;
+  }
+  
+  .polaroid img {
+    background: rgb(255, 255, 255); /* Fundo branco */
+    width: 130px; /* Largura da imagem 3x4 */
+    height: 170px; /* Altura da imagem 3x4 */
+    display: block; /* Exibe a imagem como um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.349), 0 6px 20px rgba(129, 131, 49, 0.637); 
+  }
+  

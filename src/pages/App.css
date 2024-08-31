@@ -3,6 +3,7 @@ body {
   color: #ffffff;
   background-color: #000000;
   margin: 0;
+  margin-top: 30%;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -98,6 +99,87 @@ p {
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+.stickers {
+  position: relative;
+}
+.wolv{
+  width: 70px;
+  height: auto;
+  transform: rotate(-5deg);
+  position: absolute;
+  bottom: 0px;
+  right: 0px; 
+  opacity: 90%;
+}
+.aran{
+  width: 70px;
+  height: auto;
+  transform: rotate(5deg);
+  position: absolute;
+  bottom: 0px;
+  left: 0px; 
+  opacity: 90%;
+}
+.estrela {
+  position: absolute;
+  bottom: 540px;
+  left: 70px; 
+  /* top: 50px; */
+}
+
+.lua {
+  position: absolute;
+  bottom: -40px;
+  right: 50px; 
+}
+.Polaroids{
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Duas colunas de tamanho igual */
+  grid-template-rows: auto auto; /* Duas linhas automáticas */
+  grid-template-areas: 
+    "item1 item2"
+    "item3 item3"
+    "item4 item4"; /* Segunda linha ocupa ambas as colunas */
+  justify-items: center; 
+  align-items: center; 
+  gap: 10px; 
+}
+.Polaroid{
+  max-width: 100%;
+  height: auto;
+}
+.foto1:hover{
+  transform: rotate(0deg);
+}
+.foto1{
+  transform: rotate(-5deg);
+  grid-area: item1;
+}
+.foto2:hover{
+  transform: rotate(0deg);
+}
+.foto2{
+  transform: rotate(5deg);
+  grid-area: item2;
+}
+.postit{
+  width: 250px;
+  height: auto;
+}
+.postit:hover{
+  filter: saturate(1.7);
+  transform: rotate(7deg);
+}
+.link{
+  grid-area: item3;
+}
+.filme{
+  padding-top: 30px;
+  padding-bottom: 70px;
+  width: 100%;
+  height: auto;
+  grid-area: item4;
 }
 /* Responsividade */
 @media (max-width: 768px) {

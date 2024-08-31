@@ -3,13 +3,16 @@ import { calcularDiferencaDeTempo, DiferencaDeTempo } from '../common/utills/tim
 import Button from '../components/button';
 import Photos from '../components/photos';
 import './App.css';
+import Sticker from '../components/sticker';
+import Polaroid from '../components/polaroid';
 
 // Respostas corretas para a frase
 const respostasCorretas = [
   'as estrelas tambem',
   'as estrelas também',
   'e as estrelas tambem',
-  'e as estrelas também'
+  'e as estrelas também',
+  ''
 ];
 
 function App() {
@@ -79,6 +82,14 @@ function App() {
 
        <Photos />
       </div>
+      <div className='stickers'>
+        <section className='estrela'>
+          <Sticker type="estrela1"/>
+        </section>
+        <section className='lua'>
+          <Sticker type='lua'/>
+        </section>
+      </div>
       <p>Juntos</p>
       {diferencaDeTempo && (
         <div id="tempoJuntos">
@@ -102,6 +113,20 @@ function App() {
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
         ></iframe>
+      </div>
+      <div className='Polaroids'>
+        <section className='foto1'>
+          <Polaroid type='foto1'/>
+          <img src='../../assets/photos/wolv.png' className='wolv'/>
+          </section>
+        <section className='foto2'>
+          <Polaroid type='foto2'/>
+          <img src='../../assets/photos/aran.png' className='aran'/>
+        </section>
+        <a className='link' href="https://www.netflix.com/br/title/70208599"><img src={`../../assets/photos/post.jpg`} alt={`Post-it`} className="postit"/></a>
+        <video className='filme' controls>
+        <source src="../assets/videos/homem aranha.mp4" type="video/mp4" />
+        </video>
       </div>
     </div>
   );

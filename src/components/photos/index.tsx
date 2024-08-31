@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './photos.css';
 
 const imagens = [
-require('../../assets/photos/img1.jpeg'),
+  require('../../assets/photos/img1.jpeg'),
   require('../../assets/photos/img2.jpeg'),
   require('../../assets/photos/img3.jpeg'),
   require('../../assets/photos/img4.jpeg'),
