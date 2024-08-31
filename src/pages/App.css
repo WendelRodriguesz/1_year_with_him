@@ -15,7 +15,7 @@ body {
   text-align: center;
   max-width: 600px;
   margin: auto;
-  margin-top: 63%;
+  margin-top: 62%;
   padding: 20px;
   position: relative; /* Adicionado para garantir que o conteúdo esteja acima do vídeo */
   z-index: 1; /* Adicionado para garantir que o conteúdo esteja acima do vídeo */
@@ -203,7 +203,7 @@ p {
 
   .container {
     max-width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 10px;
   }
 
