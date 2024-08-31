@@ -115,11 +115,11 @@ function App() {
       <div className='Polaroids'>
         <section className='foto1'>
           <Polaroid type='foto1'/>
-          <img src='../../assets/photos/wolv.png' className='wolv'/>
+          <img src='../../assets/photos/wolv.png' className='wolv' alt={`wolverine`}/>
           </section>
         <section className='foto2'>
           <Polaroid type='foto2'/>
-          <img src='../../assets/photos/aran.png' className='aran'/>
+          <img src='../../assets/photos/aran.png' className='aran' alt={`aranha`}/>
         </section>
         <a className='link' href="https://www.netflix.com/br/title/70208599" target="_blank" rel="noopener noreferrer"><img src={`../../assets/photos/post.jpg`} alt={`Post-it`} className="postit"/></a>
         <video className='filme' controls>
