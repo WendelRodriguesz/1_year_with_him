@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Sticker from '../sticker';
 import './photos.css';
 
 const imagens = [
@@ -24,6 +25,12 @@ const Photos: React.FC = () => {
 
   return (
     <div className="photos">
+      <section className='estrela'>
+        <Sticker type="estrela1"/>
+      </section>
+      <section className='lua'>
+        <Sticker type='lua'/>
+      </section>
       <img src={imagens[indiceAtual]} alt={`Slide ${indiceAtual}`} className="imagem" />
     </div>
   );

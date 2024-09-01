@@ -7,9 +7,9 @@ interface Props {
 
 const Sticker: React.FC<Props>  = ({ type }: Props) => {
   return (
-    <div className="sticker">
+
       <img src={`../../assets/photos/${type}.png`} alt={`Sticker ${type}`} className="sticker" />
-    </div>
+
   
   );
 };

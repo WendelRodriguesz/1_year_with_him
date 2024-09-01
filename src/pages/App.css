@@ -4,20 +4,17 @@ body {
   background-color: #000000;
   margin: 0;
   padding: 0;
-  display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin: 3rem 0;
 }
 
 .container {
+  margin: auto;
   font-family: fantasy;
   text-align: center;
   max-width: 600px;
-  margin: auto;
-  margin-top: 62%;
   padding: 20px;
-  position: relative; /* Adicionado para garantir que o conteúdo esteja acima do vídeo */
   z-index: 1; /* Adicionado para garantir que o conteúdo esteja acima do vídeo */
 }
 
@@ -99,33 +96,19 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-}
-
-.estrela {
-  position: absolute;
-  bottom: 1740px;
-  left: 80px; 
-  /* top: 50px; */
-}
-
-.lua {
-  position: absolute;
-  bottom: 1160px;
-  left: 75.2%; 
 }
 
 .Polaroids {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Duas colunas de tamanho igual */
   grid-template-rows: auto auto; /* Duas linhas automáticas */
-  grid-template-areas: 
+  grid-template-areas:
     "item1 item2"
     "item3 item3"
     "item4 item4"; /* Segunda linha ocupa ambas as colunas */
-  justify-items: center; 
-  align-items: center; 
-  gap: 10px; 
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .Polaroid {
@@ -157,7 +140,7 @@ p {
   transform: rotate(-5deg);
   position: absolute;
   bottom: 0px;
-  right: 0px; 
+  right: 0px;
   opacity: 96%;
 }
 
@@ -167,7 +150,7 @@ p {
   transform: rotate(5deg);
   position: absolute;
   bottom: 0px;
-  left: 0px; 
+  left: 0px;
   opacity: 90%;
 }
 
@@ -234,32 +217,19 @@ p {
   .Polaroids {
     grid-template-columns: 1fr; /* Ajuste para uma coluna em dispositivos móveis */
     grid-template-rows: auto; /* Ajuste para linhas automáticas */
-    grid-template-areas: 
+    grid-template-areas:
       "item1"
       "item2"
       "item3"
       "item4"; /* Cada item ocupa uma linha */
   }
 
-  .wolv, .aran {
+  .wolv,
+  .aran {
     width: 50px; /* Ajuste para dispositivos móveis */
   }
 
   .postit {
     width: 200px; /* Ajuste para dispositivos móveis */
   }
-
-  .estrela {
-    position: absolute;
-    bottom: 2010px;
-    left: 110px; 
-    /* top: 50px; */
-  }
-  
-  .lua {
-    position: absolute;
-    bottom: 1430px;
-    left: 75.2%; 
-  }
-  
 }

@@ -2,9 +2,8 @@ import { useEffect, useState } from 'react';
 import { calcularDiferencaDeTempo, DiferencaDeTempo } from '../common/utills/time';
 import Button from '../components/button';
 import Photos from '../components/photos';
-import './App.css';
-import Sticker from '../components/sticker';
 import Polaroid from '../components/polaroid';
+import './App.css';
 
 // Respostas corretas para a frase
 const respostasCorretas = [
@@ -80,12 +79,7 @@ function App() {
       <div className="photos_container">
         <Photos />
       </div>
-      <section className='estrela'>
-        <Sticker type="estrela1"/>
-      </section>
-      <section className='lua'>
-        <Sticker type='lua'/>
-      </section>
+  
       <p>Juntos</p>
       {diferencaDeTempo && (
         <div id="tempoJuntos">
